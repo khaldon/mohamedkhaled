@@ -170,26 +170,25 @@
 <!--   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" /> -->
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
   {% else %}
-  <!-- In _includes/head.html or your layout file -->
 <!-- Favicon (traditional) -->
-<link rel="icon" href="/assets/favicons/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/assets/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{/assets/favicons/favicon.ico | relative_url}}" type="image/x-icon">
+<link rel="icon" href="{{/assets/favicons/favicon.svg | relative_url}}" type="image/svg+xml">
 
 <!-- Modern browsers and high-resolution displays -->
-<link rel="icon" href="/assets/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="{{/assets/favicons/favicon-96x96.png | relative_url}}" type="image/png" sizes="96x96">
 
 <!-- Apple Touch Icon (for iOS devices) -->
-<link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="{{/assets/favicons/apple-touch-icon.png | relative_url}}" sizes="180x180">
 
 <!-- Web App Manifest (PWA support) -->
-<link rel="manifest" href="/assets/favicons/site.webmanifest">
+<link rel="manifest" href="{{/assets/favicons/site.webmanifest | relative_url}}">
 
 <!-- Windows 8/10 tile icon -->
-<meta name="msapplication-TileImage" content="/assets/favicons/web-app-manifest-192x192.png">
+<meta name="msapplication-TileImage" content="{{/assets/favicons/web-app-manifest-192x192.png | relative_url}}">
 
 <!-- For Android Chrome -->
-<link rel="icon" sizes="192x192" href="/assets/favicons/web-app-manifest-192x192.png">
-<link rel="icon" sizes="512x512" href="/assets/favicons/web-app-manifest-512x512.png">
+<link rel="icon" sizes="192x192" href="{{/assets/favicons/web-app-manifest-192x192.png | relative_url}}">
+<link rel="icon" sizes="512x512" href="{{/assets/favicons/web-app-manifest-512x512.png | relative_url}}">
   {% endif %}
 
   {% if page.head-extra %}
