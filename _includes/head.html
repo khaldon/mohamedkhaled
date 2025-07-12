@@ -165,13 +165,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
-    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
 
-  {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
-  {% if favicon_exists == 1 %}
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
-  {% else %}
-  <!-- In _includes/head.html or your layout file -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicons/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicons/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicons/favicon-16x16.png' | relative_url }}">
@@ -180,7 +174,13 @@
   <link rel="shortcut icon" href="{{ '/assets/img/favicons/favicon.ico' | relative_url }}">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="{{ '/assets/img/favicons/browserconfig.xml' | relative_url }}">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">      {% break %}
+
+  
+  {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
+  {% if favicon_exists == 1 %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
+
   {% endif %}
 
   {% if page.head-extra %}
