@@ -167,7 +167,7 @@
 
 
 
-  {% break %}
+<!--   {% break %} -->
 
   
     
@@ -180,10 +180,10 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="{{ '/favicons/browserconfig.xml' | relative_url }}">
   <meta name="theme-color" content="#ffffff">  
-  {% assign favicon_exists = site.static_files | where: "path", "/favicons/favicon.ico" | size %}
+<!--   {% assign favicon_exists = site.static_files | where: "path", "/favicons/favicon.ico" | size %}
   {% if favicon_exists == 1 %}
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
-  {% endif %}
+  {% endif %} -->
 
   {% if page.head-extra %}
     {% for file in page.head-extra %}
