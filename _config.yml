@@ -55,7 +55,7 @@ social-network-links:
   whatsapp: +201016580256
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
- linkedin: https://www.linkedin.com/in/mohamed-khaled-1ba43a135/
+  linkedin: https://www.linkedin.com/in/mohamed-khaled-1ba43a135/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -65,14 +65,14 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
- telegram: @KhaldonMK
+  telegram: @KhaldonMK
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
- kaggle: https://www.kaggle.com/khaldonmk
+  kaggle: https://www.kaggle.com/khaldonmk
 #  hackerrank: yourname
 #  gitlab: yourname
 #  itchio: yourname
