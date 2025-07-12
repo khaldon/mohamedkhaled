@@ -1,9 +1,7 @@
 ---
 layout: page
 title: About me
-description: "Machine Learning Engineer specializing in NLP and Large Language Models with full-stack development experience. Building intelligent systems where ideas become reality."
 subtitle: Why you'd want to go on a date with me
-permalink: /about/
 ---
 
 ## Where Ideas Become Reality
