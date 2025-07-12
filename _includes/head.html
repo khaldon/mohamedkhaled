@@ -31,7 +31,11 @@
     {%- endif -%}
   {% endcapture %}
 
-  <title>{{ title }}</title>
+  <title>
+    {{ title }}
+    {% unless page.title %}| ML/DL Engineer & LLM Specialist{% endunless %}
+
+  </title>
 
   {% capture author %}
     {%- if page.author -%}
